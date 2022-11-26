@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: gomod
+    directory: /
+    schedule:
+      interval: daily
+    reviewers:
+      - "EgorHenek"
+    labels:
+      - dependencies
+    commit-message:
+      prefix: Go
